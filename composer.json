@@ -1,5 +1,5 @@
 {
-    "name": "phalapi/view",
+    "name": "phalapi-view",
     "description": "PhalApi 2.x 扩展类库 - 视图。",
     "keywords": [
         "phalapi", "phalapi-view", "view"
