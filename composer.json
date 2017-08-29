@@ -1,5 +1,5 @@
 {
-    "name": "phalapiview",
+    "name": "steveak/view",
     "description": "PhalApi 2.x 扩展类库 - 视图。",
     "keywords": [
         "phalapi", "phalapi-view", "view"
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "PhalApi\\View\\": "src"
+            "SteveAK\\View\\": "src"
         }
     } 
 }

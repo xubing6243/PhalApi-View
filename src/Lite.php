@@ -7,10 +7,10 @@
  *  Copyright (c) 2017 SteveAK. All rights reserved.
  *  Contact email(aer_c@qq.com) or qq(7579476)
  */ 
-namespace PhalApi\View;
+namespace SteveAK\View;
 
 class Lite {
-	protected $item = 'App';
+	protected $item = 'app';
 	//模板赋值参数
 	protected $param = array();
 	//视图类型
@@ -48,7 +48,7 @@ class Lite {
 	 * @param  array  $param 参数
 	 */
 	public function load($name, $param=array()){  
-        $view = API_ROOT . '/' . $this->item . '/View/' . $this->type . '/' . $name . '.html';
+        $view = API_ROOT . '/' . $this->item . '/src/View/' . $this->type . '/' . $name . '.html';
         //合并参数
         $param = array_merge($this->param, $param);
         //将数组键名作为变量名，如果有冲突，则覆盖已有的变量
