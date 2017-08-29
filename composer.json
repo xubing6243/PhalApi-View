@@ -1,0 +1,27 @@
+{
+    "name": "phalapi/view",
+    "description": "PhalApi 2.x 扩展类库 - 视图。",
+    "keywords": [
+        "phalapi", "phalapi-view", "view"
+    ],
+    "license": "GPL-3.0+",
+    "homepage": "https://www.phalapi.net/",
+    "type": "library",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "steve xu",
+            "email": "aer_c@qq.com",
+            "homepage": "https://github.com/xubing6243",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhalApi\\View\\": "src"
+        }
+    } 
+}
