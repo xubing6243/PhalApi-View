@@ -48,7 +48,7 @@ class Lite {
 	 * @param  array  $param 参数
 	 */
 	public function load($name, $param=array()){  
-        $view = API_ROOT . '/' . $this->item . '/src/View/' . $this->type . '/' . $name . '.html';
+        $view = API_ROOT . '/src/' . $this->item . '/View/' . $this->type . '/' . $name . '.html';
         //合并参数
         $param = array_merge($this->param, $param);
         //将数组键名作为变量名，如果有冲突，则覆盖已有的变量
